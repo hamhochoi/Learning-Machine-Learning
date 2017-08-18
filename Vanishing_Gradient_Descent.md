@@ -1,0 +1,4 @@
+- Là hiện tượng khi giá trị của gradient trở nên rất nhỏ sau một số vòng lặp, gần như không thay đổi
+- Vấn đề này trở nên càng tồi tệ khi số lượng layers càng lớn.
+- Nguyên nhân là do việc lựa chọn các activation function như sigmoid và tanh. Do các hàm này đưa giá trị tại các neural về khoảng rất nhỏ (vd: sigmoid : [-1,1])
+- 
